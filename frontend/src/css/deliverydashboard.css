@@ -1,0 +1,226 @@
+/* .dashboard-wrapper {
+  background: url("https://images.unsplash.com/photo-1585238342028-8466f1dc0d84") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 40px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.763);
+  color: #0b0b0b;
+  text-align: center;
+}
+
+.glass-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.glass-card p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dash-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #d4ccb5;
+  color: #121212;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dash-btn:hover {
+  background: #fdd835;
+  color: #000;
+} */
+
+/* DeliveryDashboard styling */
+/* 
+.dashboard-wrapper {
+  background: url("assets/img/background.png") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+
+
+
+
+.delivery-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 20px 40px;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.nav-title {
+  font-size: 24px;
+  color: #1e88e5;
+  font-weight: bold;
+}
+
+.profile-name {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Main content */
+ .dashboard-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: #2e2626;
+  background: url("assets/img/delivery.png") no-repeat #2e2626;
+  background-size: 100% 100%;
+  padding: 40px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+ 
+}
+
+.glass-card h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.glass-card p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dash-btn {
+  padding: 12px 24px;
+  background-color: #7c716fc8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dash-btn:hover {
+  background-color: #9de113c3;
+} 
+
+
+
+
+
+
+/* 
+Layout wrapper
+.dashboard-container {
+  display: flex;
+  min-height: 70vh;
+  font-family: Arial, sans-serif;
+} */
+
+/* Sidebar styles */
+/* .sidebar {
+  width: 220px;
+  background-color: #42646ef1;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-user {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.sidebar-link:hover {
+  background: #1565c0;
+}
+
+.logout-button {
+  margin-top: 1px;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+} */
+
+/* Dashboard content already exists: reuse your existing styles */
+/* .dashboard-wrapper {
+  flex-grow: 1;
+  background: url("assets/img/delivery.png") no-repeat #2e2626;
+  background-size: 100% 100%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
