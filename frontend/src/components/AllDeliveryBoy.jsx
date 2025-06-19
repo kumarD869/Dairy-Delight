@@ -44,6 +44,23 @@ const AllDeliveryBoy = () => {
     { name: "ALL DELIVERIES", path: "/adminpanel/alldeliveres" },
       { name: "VIEW ENQUIRY", path: "/brand" },
   ];
+const deleteUser = async(user) => {
+    try {
+        const res = await axios.post("http://localhost:5000/api/deleteUser",{
+          id:user._id
+        });
+        console.log(res)
+        if (res.data.success) {
+          toast.success(res.data.message || "Deleted the deliveryboy successfully");
+          // const filteredUsers = res.data.data.filter(user => user.userType === "user");
+          // setData(filteredUsers);
+        } else {
+          toast.error(res.data.message || "Failed to delete deliveryboy");
+        }
+      } catch (err) {
+        toast.error("Error deleting deliveryboy");
+      }
+  };
 
   return (
     <div className="container-fluid">
@@ -104,6 +121,7 @@ const AllDeliveryBoy = () => {
                   <th style={styles.th}>Email</th>
                   <th style={styles.th}>Phone</th>
                   <th style={styles.th}>ID</th>
+                  <th style={styles.th}>Dlete</th>
                 </tr>
               </thead>
               <tbody>
@@ -118,6 +136,7 @@ const AllDeliveryBoy = () => {
                     <td style={styles.td}>
                       <code>{user._id}</code>
                     </td>
+                      <td style={styles.td}><button onClick={() => deleteUser(user)} style={{color:'blue',border:'none'}}> Dlete deliveryboy</button></td>
                   </tr>
                 ))}
               </tbody>

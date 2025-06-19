@@ -95,15 +95,15 @@ const ViewUserProfile = () => {
         <main
           className="col-md-10 p-4"
           style={{
-            backgroundImage: `url('https:/png.pngtree.com/thumb_back/fh260/background/20211118/pngtree-technology-round-dashboard-image_908915.jpg')`,
-            backgroundSize: 'cover',
+            backgroundImage: 'url(/assets/img/user.jpg)',
+            backgroundSize: '100% 100%',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             minHeight: '100vh',
             color: '#000'
           }}
         >
-          <div style={{ backgroundColor: 'rgba(255,255,255,0.95)', padding: '30px', borderRadius: '10px' }}>
+          <div style={{ backgroundColor: 'rgba(255, 255, 255, 0.81)', padding: '30px', borderRadius: '10px' }}>
             <h3 className="text-center mb-4" style={{ color: "#6A0DAD", fontWeight: "bold" }}>
               User Profile
             </h3>

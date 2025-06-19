@@ -106,15 +106,15 @@ const AddEnquiry = () => {
         <main
           className="col-md-10 p-4"
           style={{
-            backgroundImage: `url('https://png.pngtree.com/thumb_back/fh260/background/20211118/pngtree-technology-round-dashboard-image_908915.jpg')`,
-            backgroundSize: "cover",
+            backgroundImage: 'url(/assets/img/user.jpg)',
+            backgroundSize: "100% 100%",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             minHeight: "100vh",
             color: "#000"
           }}
         >
-          <div style={{ background: "rgba(255,255,255,0.9)", padding: "20px", borderRadius: "8px" }}>
+          <div style={{ background: "rgba(255, 255, 255, 0.84)", padding: "20px", borderRadius: "8px" }}>
             <h3 className="text-center mb-4" style={{ color: "#6A0DAD", fontWeight: "bold" }}>
               Submit Enquiry
             </h3>

@@ -74,8 +74,8 @@ const DeliveryDashboard = () => {
         <main
   className="col-md-10 p-4"
   style={{
-    backgroundImage: `url('https://www.shutterstock.com/image-photo/warehouse-management-innovative-software-computer-600nw-2074721743.jpg')`, // Replace with your image path
-    backgroundSize: 'cover',
+    backgroundImage: 'url(/assets/img/delivery.png)', // Replace with your image path
+    backgroundSize: '100% 100%',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     minHeight: '100vh',

@@ -77,8 +77,8 @@ const UserDashboard = () => {
        <main
   className="col-md-10 p-4"
   style={{
-    backgroundImage: `url('https://png.pngtree.com/thumb_back/fh260/background/20211118/pngtree-technology-round-dashboard-image_908915.jpg')`, // Replace with your image path
-    backgroundSize: 'cover',
+    backgroundImage: 'url(/assets/img/user.jpg)', // Replace with your image path
+    backgroundSize: '100% 100%',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     minHeight: '100vh',

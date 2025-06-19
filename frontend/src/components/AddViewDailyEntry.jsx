@@ -151,14 +151,14 @@ const AddViewDailyEntry = () => {
         <main
           className="col-md-10 p-4"
           style={{
-            backgroundImage: `url('https://www.shutterstock.com/image-photo/warehouse-management-innovative-software-computer-600nw-2074721743.jpg')`,
-            backgroundSize: "cover",
+            backgroundImage: 'url(/assets/img/background.jpg)',
+            backgroundSize: "100% 100%",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             minHeight: "100vh",
           }}
         >
-          <div style={{ background: "rgba(255,255,255,0.95)", padding: "20px", borderRadius: "8px" }}>
+          <div style={{ background: "rgba(255, 255, 255, 0.77)", padding: "20px", borderRadius: "8px" }}>
             <h3 className="text-center" style={{ color: "#6A0DAD", fontWeight: "bold" }}>Add Daily Entry</h3>
             <form onSubmit={handleSubmit} className="row g-3 mt-4">
               <div className="col-md-4">

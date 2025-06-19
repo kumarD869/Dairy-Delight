@@ -89,7 +89,7 @@ const GetStarted = () => {
 const containerStyle = {
     minHeight: "100vh",
     backgroundImage: "url('/assets/img/background.png')", // Place image in public/assets/img
-    backgroundSize: "cover",
+    backgroundSize: "100% 100%",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     display: "flex",

@@ -60,7 +60,7 @@ function App() {
             <Route path='/tes' element={<Testimonial />} />
             <Route path='/404' element={<Notfound />} />
             <Route path='/log' element={<Login />} />
-            {/* <Route path="/deliveryboy" element={<DeliveryDashboard />} /> */}
+             <Route path="/deliveryboy" element={<DeliveryDashboard />} /> 
           </Route>
             
           {/* <Route path="/deliveryboy" element={<DeliveryDashboard />} /> */}

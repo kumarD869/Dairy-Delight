@@ -27,6 +27,24 @@ const AllUsers = () => {
     fetchUsers();
   }, []);
 
+  const deleteUser = async(user) => {
+    try {
+        const res = await axios.post("http://localhost:5000/api/deleteUser",{
+          id:user._id
+        });
+        console.log(res)
+        if (res.data.success) {
+          toast.success(res.data.message || "Deleted the user successfully");
+          // const filteredUsers = res.data.data.filter(user => user.userType === "user");
+          // setData(filteredUsers);
+        } else {
+          toast.error(res.data.message || "Failed to delete user");
+        }
+      } catch (err) {
+        toast.error("Error deleting users");
+      }
+  };
+
   return (
     <>
       <ToastContainer />
@@ -42,6 +60,7 @@ const AllUsers = () => {
               <th style={styles.th}>Email</th>
               <th style={styles.th}>Phone</th>
               <th style={styles.th}>ID</th>
+              <th style={styles.th}>Delete</th>
             </tr>
           </thead>
           <tbody>
@@ -54,6 +73,7 @@ const AllUsers = () => {
                 <td style={styles.td}>{user.email}</td>
                 <td style={styles.td}>{user.phone}</td>
                 <td style={styles.td}><code>{user._id}</code></td>
+                <td style={styles.td}><button onClick={() => deleteUser(user)} style={{color:'blue',border:'none'}}>Delete User</button></td>
               </tr>
             ))}
           </tbody>

@@ -93,7 +93,7 @@ const ManageDeliveryPersonProfile = () => {
         >
           <div>
             <h4 className="text-center mb-4" style={{ color: "purple", fontWeight: "bolder" }}>
-              WELCOME USER DASHBOARD
+              WELCOME DELIVERY PERSON DASHBOARD
             </h4>
             <ul className="nav flex-column">
               {navItems.map((item) => (
@@ -126,8 +126,8 @@ const ManageDeliveryPersonProfile = () => {
         <main
           className="col-md-10 p-4"
           style={{
-            backgroundImage: `url('https://png.pngtree.com/thumb_back/fh260/background/20211118/pngtree-technology-round-dashboard-image_908915.jpg')`,
-            backgroundSize: "cover",
+            backgroundImage: 'url(/assets/img/background.jpg)',
+            backgroundSize: "100% 100%",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             minHeight: "100vh",
@@ -136,7 +136,7 @@ const ManageDeliveryPersonProfile = () => {
         >
           <div
             className="container"
-            style={{ backgroundColor: "rgba(255,255,255,0.95)", padding: "30px", borderRadius: "10px" }}
+            style={{ backgroundColor: "rgba(255, 255, 255, 0.76)", padding: "30px", borderRadius: "10px" }}
           >
             <h3 className="text-center mb-4" style={{ color: "#6A0DAD", fontWeight: "bold" }}>
               Manage Delivery Person Profile

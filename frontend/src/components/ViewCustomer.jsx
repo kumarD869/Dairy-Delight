@@ -88,9 +88,9 @@ const ViewCustomer = () => {
         <main
           className="col-md-10 p-4"
           style={{
-            backgroundImage: `url('https://www.shutterstock.com/image-photo/warehouse-management-innovative-software-computer-600nw-2074721743.jpg')`,
+            backgroundImage: 'url(/assets/img/background.jpg)',
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "100% 100%",
             backgroundRepeat: "no-repeat",
             minHeight: "100vh",
             overflowY: "auto",
